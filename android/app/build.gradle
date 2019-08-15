@@ -166,6 +166,12 @@ android {
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "com.facebook.react:react-native:+"  // From node_modules
+//
+//    // https://mvnrepository.com/artifact/androidx.annotation/annotation
+//    implementation group: 'androidx.annotation', name: 'annotation', version: '1.1.0'
+//
+//    // https://mvnrepository.com/artifact/com.android.support/transition
+//    implementation group: 'com.android.support', name: 'transition', version: '28.0.0'
 
     // JSC from node_modules
     if (useIntlJsc) {
